@@ -120,6 +120,7 @@ th {
   padding: 10px;
   font-size: 16px;
   vertical-align: bottom;
+  border-right: 1px solid rgba(255, 255, 255, 20%);
 }
 
 td {
@@ -130,9 +131,7 @@ td {
 .grey {
   background-color: rgba(197, 195, 195, 0.589);
 }
-tr:not(last-child) {
-  border-right: 1px solid rgba(255, 255, 255, 20%);
-}
+
 td {
   border-right: 1px solid rgba(255, 255, 255, 20%);
 }
@@ -166,35 +165,43 @@ form button {
   background-color: #2e62cd;
   color: white;
   border: none;
+  height: 30px;
+  width: 25%;
+  font-size: large;
 }
 form input {
   border: none;
   border-bottom: 1px dotted black;
+  height: 30px;
+  width: 60%;
+  font-size: large;
 }
 
 /* ELEMENTI NELL' ASIDE */
-aside {
+.articoli-correlati {
   background-color: white;
   max-width: 350px;
   margin-inline: auto;
   padding-left: 10px;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 40%), 1px 2px 0px rgb(255 255 255);
   padding-right: 10px;
   box-sizing: border-box;
   padding-bottom: 20px;
   padding-top: 10px;
 }
-aside h2 {
+.articoli-correlati h2 {
   text-align: center;
   margin-bottom: 15px;
 }
+
 .correlati {
   width: 100%;
   background-color: rgba(197, 195, 195, 0.589);
   border: 1px solid rgba(197, 195, 195, 0.4);
   box-sizing: border-box;
   margin-bottom: 15px;
+  padding-top: 10px;
 }
+
 .correlati a,
 p {
   padding-left: 10px;
