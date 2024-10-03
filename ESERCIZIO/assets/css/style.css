@@ -16,11 +16,11 @@ ol {
 }
 ol {
   list-style: decimal;
-  padding-left: 20px;
+  padding-left: 10%;
 }
 ul:not(header ul) {
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 10%;
 }
 .novita {
   font-size: 24px;
