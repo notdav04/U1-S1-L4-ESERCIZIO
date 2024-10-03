@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* IMPOSTAZIONI GENERALI */
+body {
+  background-image: url("../img/sfondo.png");
+  background-repeat: repeat-y;
+  background-size: auto;
+  font-family: "Poppins";
+  line-height: 1.5;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 16px;
+}
+ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+.novita {
+  font-size: 24px;
+  font-weight: bold;
+}
+code {
+  background-color: rgba(197, 195, 195, 0.589);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/* HEADER */
+header {
+  background-image: linear-gradient(#0099bb, #017088);
+  max-width: 350px;
+  margin-inline: auto;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 40%), 1px 2px 5px rgba(0, 0, 0, 30%);
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+header img {
+  margin-bottom: 16px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+}
+/* MAIN */
+main {
+  background-color: white;
+  max-width: 350px;
+  margin-inline: auto;
+  padding-left: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 40%);
+  padding-right: 10px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+  font-size: 34px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-info p {
+  font-size: larger;
+  color: rgba(0, 0, 0, 40%);
+}
+
+.page-info {
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: rgb(169, 33, 170);
+}
+
+iframe {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+a {
+  color: #0099bb;
+  font-weight: bold;
+}
+/* TABELLE */
+table {
+  height: auto;
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 16px;
+}
+caption {
+  font-size: 20px;
+  font-weight: bold;
+}
+thead {
+  vertical-align: bottom;
+}
+th {
+  height: 50px;
+  background-color: #2e62cd;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+  vertical-align: bottom;
+}
+
+td {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+.grey {
+  background-color: rgba(197, 195, 195, 0.589);
+}
+tr:not(last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 20%);
+}
+td {
+  border-right: 1px solid rgba(255, 255, 255, 20%);
+}
+#last-tr {
+  border-bottom: 2px solid #2e62cd;
+}
+
+/* FORM */
+.form-text {
+  width: 100%;
+  height: auto;
+  background-color: rgba(197, 195, 195, 0.589);
+
+  text-align: left;
+  box-sizing: border-box;
+}
+.form-text p {
+  margin-inline: auto;
+  max-width: 80%;
+}
+.form-text h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  padding-top: 10px;
+}
+form {
+  text-align: center;
+  padding-bottom: 10px;
+}
+form button {
+  background-color: #2e62cd;
+  color: white;
+  border: none;
+}
+form input {
+  border: none;
+  border-bottom: 1px dotted black;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+  background-color: white;
+  max-width: 350px;
+  margin-inline: auto;
+  padding-left: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 40%), 1px 2px 0px rgb(255 255 255);
+  padding-right: 10px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+aside h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.correlati {
+  width: 100%;
+  background-color: rgba(197, 195, 195, 0.589);
+  border: 1px solid rgba(197, 195, 195, 0.4);
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.correlati a,
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.date {
+  text-align: right;
+}
+
+/* FOOTER */
+footer {
+  background-image: linear-gradient(#005566, #384337);
+  max-width: 350px;
+  margin-inline: auto;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 40%), 1px 2px 5px rgba(0, 0, 0, 30%);
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+footer * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.last-link {
+  color: violet;
+}
